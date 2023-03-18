@@ -1,0 +1,318 @@
+/* general properties */
+body,div,nav,footer,main{
+    padding: 0 0;
+    margin: 0 0;
+}
+li{
+    list-style-type: none;
+}
+
+:root{
+
+
+/* 
+    --white:white;
+    --blue: rgb(50, 44, 44);
+    --darkblue: white;
+    --lightblue:rgb(87, 75, 75);
+    --buttoncolor:black;
+ */
+
+
+
+
+    --white:#5b5757f4;
+    --blue: #8d8d8d;
+    --darkblue:rgb(0, 0, 0);
+    --lightblue: #cecdcd; 
+    --buttoncolor: rgb(255, 244, 244); 
+
+
+}
+body{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--white);
+    background: var(--lightblue);
+}
+.nav_space{
+    height: 5rem;
+    width: 100%;
+}
+/* nav css */
+.nav{
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    background: var(--blue);
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li:nth-child(1){
+    font-weight: bold;
+    font-size: 2rem;
+    position: fixed;
+    right: 50%;
+}
+
+.nav ul li:nth-child(2){
+    
+    position: fixed;
+    right: 5%;
+}
+
+.nav ul li:nth-child(3){
+    
+    position: fixed;
+    left: 5%;
+}
+
+.nav ul li button {
+
+    padding: 10px 10px;
+    border-radius: 10px;
+    border:1px solid var(--white);
+    background: var(--white);
+    color: var(--buttoncolor);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav ul li button:hover{
+
+    color: var(--blue);
+
+
+}
+
+main{
+    padding: 2rem;
+    min-height: 90vh;
+}
+
+
+
+
+.Introduction{
+    
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    margin-bottom: 10rem;
+
+}
+
+
+.Introduction .left{
+    color: var(--darkblue);
+    width: 50%;
+}
+
+
+
+.Introduction .left p{
+    width: 100%;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 1.15rem;
+}
+
+.Introduction .right{
+
+    display: flex;
+    margin: auto;   
+    color: var(--darkblue);
+    width: 50%;
+
+}
+
+
+.Introduction .right img{
+    
+    display: flex;
+    margin-left: auto;   
+    width:30rem;
+    height:18rem;
+    border-radius: 1rem;
+
+}
+
+
+
+
+.Impact{
+
+    margin-top: 10rem;
+    width: 100%;
+    display: flex;
+    margin-bottom: 10rem;
+
+}
+
+.Impact .left{
+
+    display: flex;
+    margin: auto;   
+    color: var(--darkblue);
+    width: 50%;
+
+}
+
+.Impact .left img {
+
+    display: flex;
+    margin-right: auto;   
+    width:30rem;
+    height:18rem;width:70%;
+    border-radius: 1rem;
+
+}
+
+
+.Impact .right{
+
+    color: var(--darkblue);
+    width: 50%;
+
+}
+
+.Impact .right p{
+    text-align: justify;
+    font-weight: 400;
+    font-size: 1.15rem;
+}
+
+
+
+
+
+
+.Malware{
+    
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    width: 100%;
+    display: flex;
+
+}
+
+
+.Malware .left{
+    color: var(--darkblue);
+    width: 50%;
+}
+.Malware .left p{
+    width: 100%;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 1.15rem;
+}
+
+.Malware .right{
+
+    display: flex;
+    margin: auto;   
+    color: var(--darkblue);
+    width: 50%;
+
+}
+
+
+.Malware .right img{
+    
+    display: flex;
+    margin-left: auto;   
+    width:30rem;
+    height:18rem;
+    border-radius: 1rem;
+
+}
+
+
+
+
+
+
+.Security{
+
+    margin-top: 10rem;
+    width: 100%;
+    display: flex;
+
+}
+
+.Security .left{
+
+    display: flex;
+    margin: auto;   
+    color: var(--darkblue);
+    width: 50%;
+
+}
+
+.Security .left img {
+
+    display: flex;
+    margin-right: auto;   
+    width:30rem;
+    height:18rem;
+    border-radius: 1rem;
+
+}
+
+
+.Security .right{
+
+    color: var(--darkblue);
+    width: 50%;
+
+}
+
+.Security .right p{
+
+    width: 100%;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 1.15rem;
+}
+
+
+
+.summary {
+
+padding: 5rem;
+margin: auto;
+color: var(--darkblue);
+text-align: center;
+
+}
+
+.summary h1{
+
+    text-align: center;
+}
+
+
+
+
+
+.footer {
+    font-weight: bold;
+    width: 100%;
+    background: var(--blue);
+    padding: 1rem;
+    text-align: center;
+}
+
+
+
+.widthfull {
+    border: none;
+}
+
+.space{
+
+margin-top: 5rem;
+
+}
